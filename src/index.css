@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif !important;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.header img {
+  height: 100px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row, .navbar, .header {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255,255,255);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  background: #dc3545;
+  border-radius: 3px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #cc2535;
+}
+
+.header {
+  background: #cc2535;
+}
+
+.footer {
+  margin-bottom: 50px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+p {
+  text-align: justify;
+}
+
+p.paragraph-margin {
+  margin-top: 30px;
+}
+
+.book-row {
+  width: 100%;
+}
+
+.book-card table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.book-info {
+  font-size: .8em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.order-icon {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.order-text {
+  font-size: .9em;
+  display: inline-block;
+  background: #444;
+  color: #eee;
+  padding: 3px 7px;
+  border-radius: 2px;
+  border: 1px solid #cc2535;
+}
+
+.book-price {
+  text-decoration: line-through;
+}
+
+.order-link {
+  margin-top: 13px;
+  display: inline-block;
+}
+
+.order-link:hover {
+  text-decoration: none;
+}
+
+.order-text:hover {
+  color: #fff;
+  background: #333;
+}
+
+.author-link, .book-link {
+  color: #212529!important;
+}
+
+.author-link:hover, .book-link:hover {
+  color: #212529;
+}
+
+.book-description {
+  white-space: pre-wrap;
+}
+
+.book-image-td {
+  vertical-align: top;
+  position: relative;
+}
+
+.fifty-off {
+  display: inline-block;
+  background: #dc3545;
+  border: 1px solid #333;
+  border-radius: 100px;
+  color: white;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  line-height: 38px;
+  left: 0;
+  position: absolute;
+  top: 185px;
+
+  transform: rotate(-15deg);
+    /* Safari */
+  -webkit-transform: rotate(-15deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-15deg);
+
+  /* IE */
+  -ms-transform: rotate(-15deg);
+
+  /* Opera */
+  -o-transform: rotate(-15deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.header a.fb-link-wrapper {
+  position: absolute;
+  right: 10%;
+  bottom: 5px;
+}
+
+.header a .fb-link {
+  height: 30px;
+}
+
+.fb-link-page {
+  height: 30px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.back-button {
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.back-button img {
+  width: 25px;
+  height: 25px;
+  vertical-align: baseline;
+}
+
+.book-title-large {
+  font-size: 2.2em;
+}
+
+.wide-img {
+  width: 100%;
+  height: auto;
+}
+
+.important-h {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 575px) {
+  h1, .book-title-large {
+    font-size: 1.8em;
+  }
+
+  .row, .navbar, .header {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .header img.header-logo {
+    width: 80%;
+    height: auto;
+  }
+
+  .header a.fb-link-wrapper {
+    background: white;
+    z-index: 1050;
+    bottom: -93px;
+    border-radius: 8px;
+    right: 5%;
+  }
+
+  .book-row {
+    padding-right: 0;
+    margin-right: -10px;
+  }
+
+  .book-row .col-md-4 {
+    padding-right: 0;
+  }
+}
